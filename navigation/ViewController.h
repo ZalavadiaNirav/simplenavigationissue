@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "homeViewController.h"
 
 @interface ViewController : UIViewController
-
+{
+    homeViewController *objHome;
+}
+@property (nonatomic,retain) NSString *passed;
 
 @end
 

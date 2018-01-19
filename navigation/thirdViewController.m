@@ -22,7 +22,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+//    [super viewWillAppear:animated];
     
     AppDelegate *objapp=(AppDelegate *)[[UIApplication sharedApplication] delegate];
     if(objapp.comefromback==1)
@@ -39,7 +39,7 @@
 
 -(void)viewWillDisappear:(BOOL)animated
 {
-    [super viewWillDisappear:animated];
+//    [super viewWillDisappear:animated];
 }
 
 
